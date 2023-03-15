@@ -1,129 +1,122 @@
 body{
-  color: #40514E;
-  margin: 0;
+  font-family: "Montserrat";
   text-align: center;
-  font-family: 'Merriweather', serif;
-  /* font-size: 2em; */
 }
-h1 {
-  font-size: 5.625rem;
-  margin: 3.125rem auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  /* line-height: 2; */
-  color: #66BFBF;
-}
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  color: #66BFBF;
-  padding-bottom: 10px;
-
-}
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+h1,h2,h3,h4,h5,h6{
+font-family: "Montserrat-bold";
 }
 p{
-  line-height: 2;
+  color: #8f8f8f;
 }
-a{
-  color: #11999E;
-}
-.abhi{
-  height: 300px;
-  width: 300px;
-}
-.code-image{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-.chilli-img{
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-.intro{
-  width: 30%;
-  margin: auto;
-}
-.para-1{
-  clear: left;
-}
-.para-2{
-  clear: right;
-}
-.skill-row{
-  width: 50%;
-  margin-left: 50%;
-  margin: 100px auto 100px auto;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
   text-align: left;
-  line-height: 2;
-
 }
-.contact-message{
-  width: 40%;
-  margin: 40px auto 40px;
+.container-fluid{
+  padding: 3% 15% 7%;
 }
-a{
-  color: #11999E;
- font-family: 'Montserrat', sans-serif;
- margin: 10px 20px;
- text-decoration: none;
+.big-heading{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
-a:hover{
-  color: #EAF6F6;
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
 }
-.copyright{
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
+.navbar{
+  padding: 0 0 4.5rem;
 }
-.top-container{
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.middle-container{
-  margin: 100px 0;
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
 }
-.bottom-container{
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
+.download-button{
+  margin: 5% 3% 5% 0;
 }
-.bottom-cloud{
-    position: absolute;
-
-}
-.top-cloud{
+.title-image{
+  width: 21%;
+  transform: rotate(25deg);
   position: absolute;
-  top: 20px;
-right: 500px;
 }
-.btn {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+   z-index: 1;
 }
-
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+.feature-title{
+  font-size: 1.5rem;
+}
+.features-box{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press {
+ background-color: #ef8172;
+ padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+}
+#footer{
+  padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
 }
